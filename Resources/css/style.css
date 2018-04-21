@@ -68,7 +68,8 @@ h2, h4 {
 	padding-top: 5px;
 }
 #locations {
-	background-image: url("C:/Users/sghim/Desktop/Projects/TeaCozy/Resources/Images/locations.jpg");
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	justify-content: center;);
 	height: 700px;
 	padding-top: 70px;
 	background-size: cover;
