@@ -1,0 +1,98 @@
+body, html {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9
+}
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 50px;
+}
+header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	font-weight: bold;
+	color: seashell;
+}
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+a {
+	color: seashell;
+}
+#Mission {
+	display: flex;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	justify-content: center;
+	height: 700px;
+	margin-top: 69px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	background-size: cover;
+	padding-top: 70px;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+h2, h4 {
+	text-align: center;
+}
+.item {
+	padding: 5px;
+	text-align: center;
+}
+.item img {
+	height: 200px;
+	margin: 10px;
+	display: block;
+}
+#location .flex-container {
+	margin: auto;
+	width: 1100px;
+	height: auto;
+}
+.flex-container.locations {
+	padding-top: 5px;
+}
+#locations {
+	background-image: url("C:/Users/sghim/Desktop/Projects/TeaCozy/Resources/Images/locations.jpg");
+	height: 700px;
+	padding-top: 70px;
+	background-size: cover;
+}
+.location {
+	display: flex;
+	background-color: black;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	margin: 5px 20px;
+	flex-basis: 280px;
+	text-align: center;
+}
+.contact {
+	text-align: center;
+}
+.content {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	border: 1200px;
+}
+#Mission {
+	width: 100%;
+	margin: auto;
+}
